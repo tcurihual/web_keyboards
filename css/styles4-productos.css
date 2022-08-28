@@ -1,0 +1,109 @@
+/*maquetado inicio pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.9)),
+    url(../imgs/bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: rgba(240, 255, 255, 0.85);
+    width: 80px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20x 35px rgba(0,0,0,0.1);
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+}
+.logo img{
+    width: 60x;
+    height: 60px;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 30px;
+}
+a{
+    position: relative;
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    pad: 10px;
+    font-weight: bol;
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+a:hover{
+    background: rgb(240, 245, 245);
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+.texto h1{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 30px;
+    position: relative;
+    top: 330px;
+    text-align: center;
+}
+/*maquetado inicio pagina*/
+table {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    border: 10px solid #ffffff;
+    background-color: #ffffff;
+}
+thead th:nth-child(1) {
+    width: 15%;
+}
+thead th:nth-child(2) {
+    width: 15%;
+}
+thead th:nth-child(3) {
+    width: 15%;
+}
+th, td {
+    padding: 5px;
+}
+thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0),
+                                           rgba(0,0,0,0.1));
+    border: 3px solid white;
+}
+tbody tr:nth-child(odd) {
+    background-color: rgb(225, 255, 255);
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(200, 255, 255);
+}
