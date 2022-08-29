@@ -1,4 +1,4 @@
-function alerta(){
+function alerta(){ // formulario de la pagina
     var nombre = document.getElementById("nombre").value;
     var email = document.getElementById("email").value;
     var telefono = document.getElementById("telefono").value;
